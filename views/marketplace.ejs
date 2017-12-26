@@ -1,0 +1,22 @@
+<% include partials/header %>
+<link rel="stylesheet" href="CSS/marketplace.css">
+
+<div class="wrapper">
+    <div class="container-center">
+        <div class="heading-div">
+            <h1 class="txt-huge heading-h1"><span class="txt-thin">TOL://</span>Marketplace</h1>
+            <a href="/marketplace/newoffer" class="btn btn-tol btn-large"><i class="fa fa-plus"></i> Add offer</a>
+        </div>
+        <br>
+        <% offers.forEach(function(offer) { %>
+            <div class="offer">
+                <h3><%= offer.title %></h3>
+                <button class="btn btn-primary" title="Bookmark"><i class="fa fa-bookmark"></i></button>
+                <img src="<%= offer.img%>" alt="Offer's image">
+                <p><%= offer.desc %></p>
+            </div>
+        <% }); %>
+    </div>
+</div>
+
+<% include partials/footer %>

@@ -1,0 +1,21 @@
+{
+  "name": "take_it_or_leave_it",
+  "version": "1.0.0",
+  "description": "Take it or leave it is an online 'store', people post things they want to get rid of, and someone else can pick it up for free.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "store",
+    "online",
+    "free"
+  ],
+  "author": "Matyáš Teplý",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "ejs": "^2.5.7",
+    "express": "^4.16.2"
+  }
+}

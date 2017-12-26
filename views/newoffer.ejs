@@ -1,0 +1,23 @@
+<% include partials/header %>
+    <link rel="stylesheet" href="/CSS/newoffer.css">
+
+    <div class="wrapper">
+        <div class="container">
+            <h1 class="txt-huge"><span class="txt-thin">TOL://</span>New Offer</h1>
+            <% if(err == 1) { %>
+                <h4 class="txt-alert">You need to fill in all the fields!</h4>    
+            <% } %>
+            <form action="/marketplace" method="POST">
+                <h2><span class="txt-thin">Need to get rid of it?</span> Offer it!</h2>
+                <input type="text" name="title" class="inp" placeholder="Title">
+                <br>
+                <input type="text" name="image" class="inp" placeholder="Image URL">
+                <br>
+                <textarea name="desc" class="inp" cols="30" rows="5" placeholder="Description"></textarea>
+                <br>
+                <button type="submit" class="btn btn-confirm btn-block btn-large"><i class="fa fa-plus"></i> Add</button>
+            </form>
+        </div>
+    </div>
+
+<% include partials/footer %>

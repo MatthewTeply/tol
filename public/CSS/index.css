@@ -1,0 +1,12 @@
+.welcome-block {
+    background-color: #fafafa;
+    padding-bottom: 20px;
+}
+
+.welcome-block h1 {
+    margin-top: 0;
+}
+
+.welcome-block a {
+    margin-top: 20px;
+}

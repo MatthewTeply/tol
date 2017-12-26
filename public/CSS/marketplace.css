@@ -1,0 +1,59 @@
+.offer {
+
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 4px;
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 4px;
+    margin-right: 4px;
+    text-align: left;
+    width: 300px;
+    height: 305px;
+    overflow: hidden;
+    box-shadow: 0 0 10px #ccc;
+    margin-bottom: 10px;
+}
+
+.offer:hover h3 {
+    color: rgb(160, 28, 160);
+}
+
+.offer:hover p {
+    color: rgb(160, 28, 160);
+}
+
+.offer img {
+    width: 300px;
+    margin-top: 1px;
+}
+
+.offer h3 {
+    display: inline-block;
+    text-transform: uppercase;
+}
+
+.offer button {
+    float: right;
+}
+
+.offer button i {
+    margin: 0;
+}
+
+.offer p {
+    background-color: #fafafa;
+    padding: 4px;
+}
+
+.heading-div h1, .heading-div a {
+    margin-bottom: 5px;
+}
+
+.heading-div a {
+    width: 20%;
+}
+
+.heading-div a:active {
+    margin-bottom: 5.5px;
+}

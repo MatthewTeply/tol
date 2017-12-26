@@ -1,0 +1,40 @@
+header {
+    border-top: 2px solid #cc2acc;
+    border-bottom: 1px solid #ccc;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #fff;
+}
+
+header h3 {
+    font-weight: 300;
+    margin: 0;
+    padding: 10px;
+}
+
+header h3 span {
+    font-weight: bold;
+}
+
+header a:first-child {
+    display: inline-block;
+    text-decoration: none;    
+}
+
+header ul {
+    display: inline-block;
+    list-style: none;
+    transform: translate(0, 4px);
+    margin-left: 20px;
+}
+
+header ul li {
+    float: left;
+    margin-left: 4px;
+    margin-right: 4px;
+}
+
+header ul li::before {
+    content: "/ ";
+}

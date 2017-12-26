@@ -1,0 +1,18 @@
+form {
+    border: 1px solid #ccc;
+    display: inline-block;
+    width: 30%;
+    padding: 10px;
+    padding-top: 5px;
+    margin-top: 20px;
+}
+
+form input, form textarea {
+    margin: 5px;
+    margin-left: 0;
+    width: calc(100% - 5px);
+}
+
+form button[type=submit] {
+    width: 100%;
+}
